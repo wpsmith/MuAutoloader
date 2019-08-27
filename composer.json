@@ -1,0 +1,29 @@
+{
+  "name": "wpsmith/muautoloader",
+  "description": "Autoloads plugin folders placed in mu-plugins.",
+  "keywords": [
+    "wordpress",
+    "mu-plugins"
+  ],
+  "homepage": "https://github.com/wpsmith/MuAutoloader",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Travis Smith",
+      "email": "t@wpsmith.net",
+      "homepage": "https://wpsmith.net/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/wpsmith/MuAutoloader/issues"
+  },
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "WPS\\WP\\MuPlugins\\": "src/"
+    }
+  }
+}
